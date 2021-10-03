@@ -1,0 +1,66 @@
+body {
+	background: #b1d5fa;
+	font-family: "Century Gothic", sans-serif;
+}
+
+.intro {
+	margin-top: 6%;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 50px;
+	background: #c6e2ff;
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+.profile-img {
+	width: 180px;
+	border: 3px solid white;
+	border-radius: 50%;
+}
+#about {
+	text-align: left;
+	background: #c6e2ff;
+	padding: 50px;
+	margin-top: 20%;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#using, #social {
+	text-align: center;
+	background: #c6e2ff;
+	padding: 50px;
+	margin-top: 20%;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.others ul {
+	margin: 0;
+	padding: 0;
+}
+
+.others li {
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+
+.others li a {
+	color: black;
+	text-decoration: none;
+	font-size: 60px;
+	transition: all ease-in-out 300ms;
+	padding-right: 16px;
+}
+
+.others li a:hover {
+	color: #b9b9b9;
+}
+	
+
+
+
+
+
