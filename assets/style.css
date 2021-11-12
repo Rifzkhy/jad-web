@@ -26,6 +26,16 @@ body {
 	border: 3px solid white;
 	border-radius: 50%;
 }
+
+.shadow-box {
+	transition: 0.5s;
+}
+
+.shadow-box:hover {
+	box-shadow: 8px 10px #888888;
+	transform: translate(-10px, -8px);
+}
+
 #about {
 	text-align: left;
 	background-color: #525252;
@@ -77,6 +87,7 @@ body {
 .others li a:hover {
 	color: #b9b9b9;
 }
+
 
 
 
