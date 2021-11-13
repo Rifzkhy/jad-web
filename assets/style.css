@@ -5,8 +5,9 @@ body {
 	color: white;
 }
 
-.main {
+#main {
 	background-color: #151515;
+	padding-top: 50px;
 }
 
 .intro {
@@ -70,24 +71,18 @@ body {
 	padding: 0;
 }
 
-.others li {
+.others li, .others a {
+	font-size: 60px;
 	display: inline-block;
-	margin: 6px;
+	margin: 10px;
 	list-style: none;
-}
-
-.others li a {
 	color: white;
 	text-decoration: none;
-	font-size: 60px;
 	transition: all ease-in-out 300ms;
-	padding-right: 16px;
 }
 
-.others li a:hover {
+.others li:hover, .others a:hover {
 	color: #b9b9b9;
 }
-
-
 
 
