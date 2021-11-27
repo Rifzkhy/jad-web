@@ -29,12 +29,14 @@ body {
 }
 
 .shadow-box {
+	box-shadow: 8px 10px #888888;
+	transform: translate(-10px, -8px);
 	transition: 0.5s;
 }
 
 .shadow-box:hover {
-	box-shadow: 8px 10px #888888;
-	transform: translate(-10px, -8px);
+	transform: none;
+	box-shadow: none;
 }
 
 #about {
@@ -84,5 +86,3 @@ body {
 .others li:hover, .others a:hover {
 	color: #b9b9b9;
 }
-
-
