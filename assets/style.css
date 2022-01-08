@@ -1,88 +1,61 @@
 body {
-	font-family: "Century Gothic", sans-serif;
-	margin: 0;
-	padding: 0;
-	color: white;
+  font-family: "Lato", sans-serif;
 }
 
-#main {
-	background-color: #151515;
-	padding-top: 50px;
-}
 
+.tcenter {
+  text-align: center;
+}
+.main {
+  background-color: #151515;
+  padding-top: 5rem;
+  color: white;
+}
 .intro {
-	margin-top: auto;
-	margin-left: 50px;
-	margin-right: 50px;
-	padding: 10px;
-	background-color: #525252;
-	text-align: center;
-	font-weight: 100;
-	letter-spacing: 2px;
-	border-radius: 10px;
+  padding-bottom: 6rem;
+}
+.other {
+  margin-top: 15rem;
+}
+.other hr {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
-.profile-img {
-	width: 180px;
-	border: 3px solid white;
-	border-radius: 50%;
+.liststyle li {
+  display: inline-block;
+  font-size: 50px;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+.ddeco {
+  text-decoration: none;
+  color: black;
 }
 
-.shadow-box {
-	box-shadow: 8px 10px #888888;
-	transform: translate(-10px, -8px);
-	transition: 0.5s;
+.dliststyle {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.shadow-box:hover {
-	transform: none;
-	box-shadow: none;
+.socialli li, .socialli a {
+  padding: 10px 10px;
+  transition: all ease-in-out 300ms;
 }
 
-#about {
-	text-align: left;
-	background-color: #525252;
-	padding: 50px;
-	margin-top: 20%;
-	margin-left: 30px;
-	margin-right: 30px;
-	border-radius: 10px;
+.socialli a:hover {
+  color: #E8E8CC;
 }
-#using, #social, #projects {
-	text-align: center;
-	background-color: #525252;
-	padding: 50px;
-	margin-top: 20%;
-	margin-left: 30px;
-	margin-right: 30px;
-	border-radius: 10px;
+.socialli i {
+  padding-right: 0.25rem;
 }
 
-#footer-bawah {
-	text-align: center;
-	background-color: #525252;
-	padding: 15px;
-	margin-top: 20%;
-	margin-left: auto;
-	margin-right: auto;
+.lovhov {
+  transition: all ease-in-out 300ms;
 }
-
-
-.others ul {
-	margin: 0;
-	padding: 0;
-}
-
-.others li, .others a {
-	font-size: 60px;
-	display: inline-block;
-	margin: 10px;
-	list-style: none;
-	color: white;
-	text-decoration: none;
-	transition: all ease-in-out 300ms;
-}
-
-.others li:hover, .others a:hover {
-	color: #b9b9b9;
+.lovhov:hover {
+  color: red;
 }
